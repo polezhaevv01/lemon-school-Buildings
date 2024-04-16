@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#222222">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+    <title>BuildProject</title>
+    <link rel="icon" type="image" href="assets/img/favicon.svg">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="assets/css/hamburgers.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+            <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                <path d="M674.9952 64L960 206.592V960H674.9952v-896z m118.8352 153.728h-43.8528v245.6832h43.8528V217.728z m0 336.4608h-43.8528v245.6832h43.8528v-245.6832z m117.9392-260.7872h-43.8528v245.6832h43.8528v-245.6832z m0 336.4608h-43.8528V875.52h43.8528v-245.6832zM479.232 339.456l-0.4608-0.2048-0.2048-199.6032 152.576-75.6736v896h-151.04l-1.1008-471.3728 0.2304-149.1456z m-155.4432-31.7696l111.1552 55.1936 0.2048 126.5152-1.1008 470.5792h-110.2592V307.712z m-43.8528 0.1792V960H64V415.9488l215.936-108.032z"/>
+            </svg>
+        </a>
+            <nav class="header-nav">
+                <a href="index.html">genplan</a>
+                <a href="build.html">build</a>
+                <a href="floor.html">floor</a>
+                <a href="flat.html">flat</a>
+            </nav>
+            <button class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </header>
+
+    <main class="wrapper home">
+        <section class="genplan">
+            <svg width="2422" height="1188" viewBox="0 0 2422 1188" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <image width="2422" height="1188" href="assets/img/build-item.png" />
+                <a href="floor.html">
+        <path id="stage-1" class="buildpath1" data-addressbuild="вул. Незалежності 7" data-soldbuild="2" data-flatsbuild="8" data-reservationbuild="3" data-freebuild="4" data-floorbuild="1" data-actionbuild="2" data-floorsbuild="5" d="M189.5 841V834.5L1902.5 836H1917.5V839.5L1909 841L1910 1032.5L199 1037V841H189.5Z"/>
+        </a>
+                <a href="floor.html">
+        <path id="stage-2" class="buildpath1" data-addressbuild="вул. Незалежності 7" data-soldbuild="4" data-flatsbuild="8" data-reservationbuild="4" data-freebuild="3" data-floorbuild="2" data-actionbuild="3" data-floorsbuild="5" d="M1917.5 840.5H188.5V834H210.5V789H271V756L199 739V721H1908.5V740L1855.5 756.5V788.5L1900.5 789.5V835.5H1917.5V840.5Z"/>
+        </a>
+                <a href="floor.html">
+        <path id="stage-3" class="buildpath1" data-addressbuild="вул. Незалежності 7" data-soldbuild="1" data-flatsbuild="8" data-reservationbuild="2" data-freebuild="5" data-floorbuild="3" data-actionbuild="5" data-floorsbuild="5" d="M200 720H1909V703.5L1919.5 699.5V695.5H1897.5V650H1854.5V628L1909 603.5V579.5H1175V603.5H821.5L793.5 579.5H200V598.5L271.5 627V649.5H208V695H189V702.5H198.5L200 704V720Z"/>
+        </a>
+                <a href="floor.html">
+        <path id="stage-4" class="buildpath1" data-addressbuild="вул. Незалежності 7" data-soldbuild="8" data-flatsbuild="8" data-reservationbuild="6" data-freebuild="2" data-floorbuild="4" data-actionbuild="4" data-floorsbuild="5" d="M200 566V578.5H793.5L821.5 602.5H1174V578.5H1909V560H1900V510H1855.5V499L1908.5 461V442.5H1177.5V423.5H820.5L808.5 408L796.5 392H200V462.5H263.5L267.5 524.5H209L210 554.5H188.5V558.5L200 566Z"/>
+        </a>
+                <a href="floor.html">
+        <path id="stage-5" class="buildpath1" data-addressbuild="вул. Незалежності 7" data-soldbuild="4" data-flatsbuild="8" data-reservationbuild="4" data-freebuild="1" data-floorbuild="5" data-actionbuild="1" data-floorsbuild="5" d="M1178.5 235.5V441.5H1908.5V426L1919.5 417.5V413.5H1900V371H1855.5V369.5L1909 319.5V235.5H1178.5Z"/>
+        </a>
+            </svg>
+            <div class="information-build">
+                <h2 class="information-title">Інформація про будинок</h2>
+                <ul class="information-list">
+                    <li class="information-list__item">
+                        <div>
+                            <strong>Адреса:</strong>
+                            <i id="addressbuild">вул.Незалежності 7</i>
+                        </div>
+                        <div>
+                            <strong>Кіл-ть проданих квартир:</strong>
+                            <i id="soldbuild">2</i>
+                        </div>
+                        <div>
+                            <strong>Загальна кіл-ть квартир:</strong>
+                            <i id="flatsbuild">8</i>
+                        </div>
+                        <div>
+                            <strong>Заброньованих квартир:</strong>
+                            <i id="reservationbuild">3</i>
+                        </div>
+                        <div>
+                            <strong>Вільних квартир:</strong>
+                            <i id="freebuild">4</i>
+                        </div>
+                        <div>
+                            <strong>Поверх:</strong>
+                            <i id="floorbuild">1</i>
+                        </div>
+                        <div>
+                            <strong>Акційні квартири:</strong>
+                            <i id="actionbuild">2</i>
+                        </div>
+                        <div>
+                            <strong>Кіл-ть поверхів:</strong>
+                            <i id="floorbuild">5</i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/js/floor.js"></script>
+</body>
